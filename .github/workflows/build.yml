@@ -4,6 +4,5 @@ jobs :
       runs-on : windows-latest
       steps :
          - run : node --version
-         - run : node --version
-         - user : actions/checkout@v3
-         - run : index.js
+         - run : npm --version
+         
