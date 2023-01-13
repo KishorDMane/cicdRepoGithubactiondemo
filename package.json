@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/KishorDMane/cicdRepoGithubactiondemo/issues"
   },
-  "homepage": "https://github.com/KishorDMane/cicdRepoGithubactiondemo#readme"
+  "homepage": "https://github.com/KishorDMane/cicdRepoGithubactiondemo#readme",
+  "dependencies": {
+    "random-number": "^0.0.9"
+  }
 }
