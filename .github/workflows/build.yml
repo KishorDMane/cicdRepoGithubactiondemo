@@ -6,6 +6,6 @@ jobs :
          - run : node --version
          - run : npm --version
          - user : actions/checkout@v3
-         - run : npm install
+         - run : npm i
          - run : node index.js
 
