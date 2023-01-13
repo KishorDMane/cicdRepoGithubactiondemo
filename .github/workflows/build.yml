@@ -3,6 +3,8 @@ jobs :
     first-job:
       runs-on : windows-latest
       steps :
-        - run : node --version
-        - run : nom --version
-        - user : actions/checkout@v3
+         - run : node --version
+         - run : nom --version
+         - user : actions/checkout@v3
+         -run : index.js
+         
