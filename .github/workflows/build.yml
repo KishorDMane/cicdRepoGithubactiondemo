@@ -2,6 +2,7 @@ on : push
 jobs : 
     first-job:
       runs-on : windows-latest
-        steps :
-          - run : node --version
-          - run : nom --version
+      steps :
+        - run : node --version
+        - run : nom --version
+        - user : actions/checkout@v3
